@@ -1,4 +1,31 @@
-## pcloudpy <img src="https://github.com/mmolero/pcloudpy/blob/master/resources/pcloudpy.png" width="60", height="60">
+# pcloudpy ![](resources/pcloudpy_icon.png)
+
+## NOTE
+The status of this toolkit based my own tests is:
+
+* supports only Python 2.7
+* tested in Ubuntu 16.04 and Python 2.7 environment created using Anaconda
+* the installation was successful but the GUI app still has problems
+
+## Installation in Anaconda environment
+
+You may use the `py2_env.yml` as a reference to install the dependencies.
+
+## Usage
+
+### normal approach (it'll fail)
+In the Python shell or script, type
+
+```
+import pcloudpy
+pcloudpy.gui.app.run()
+```
+
+### not-so-correct appraoch (you can see the GUI but it still cannot open PLY files)
+Found `main.py` in the source foler and run `python main.py`.
+
+--------
+[Original README.md is as follows...]
 
 Point Cloud Viewer and Processing Toolkit in Python
 
